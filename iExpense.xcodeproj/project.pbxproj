@@ -13,6 +13,8 @@
 		E976E1EB24C5DA220009F656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976E1EA24C5DA220009F656 /* Assets.xcassets */; };
 		E976E1EE24C5DA220009F656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976E1ED24C5DA220009F656 /* Preview Assets.xcassets */; };
 		E976E1F124C5DA220009F656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E976E1EF24C5DA220009F656 /* LaunchScreen.storyboard */; };
+		E976E1F924C5F05C0009F656 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E976E1F824C5F05C0009F656 /* ExpenseItem.swift */; };
+		E976E1FB24C5FB8F0009F656 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E976E1FA24C5FB8F0009F656 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E976E1ED24C5DA220009F656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E976E1F024C5DA220009F656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E976E1F224C5DA220009F656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E976E1F824C5F05C0009F656 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		E976E1FA24C5FB8F0009F656 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E976E1E424C5DA210009F656 /* AppDelegate.swift */,
 				E976E1E624C5DA210009F656 /* SceneDelegate.swift */,
 				E976E1E824C5DA210009F656 /* ContentView.swift */,
+				E976E1F824C5F05C0009F656 /* ExpenseItem.swift */,
+				E976E1FA24C5FB8F0009F656 /* AddView.swift */,
 				E976E1EA24C5DA220009F656 /* Assets.xcassets */,
 				E976E1EF24C5DA220009F656 /* LaunchScreen.storyboard */,
 				E976E1F224C5DA220009F656 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				E976E1E524C5DA210009F656 /* AppDelegate.swift in Sources */,
 				E976E1E724C5DA210009F656 /* SceneDelegate.swift in Sources */,
+				E976E1FB24C5FB8F0009F656 /* AddView.swift in Sources */,
 				E976E1E924C5DA210009F656 /* ContentView.swift in Sources */,
+				E976E1F924C5F05C0009F656 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
 				DEVELOPMENT_TEAM = 7FGJ4TTALD;
@@ -295,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LunarColony.iExpense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
 				DEVELOPMENT_TEAM = 7FGJ4TTALD;
@@ -315,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LunarColony.iExpense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
