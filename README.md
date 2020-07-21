@@ -6,7 +6,7 @@ Yet another simple app. This app tracks your personal and business expenses and 
 
 ## Project plan and journey
 #### Project Plan
-The goal of this app was to further enchance my understanding of the important tools necessary for building a great application. The main goal was understand how to  store important user data and how present data entered via textfield into a list using a second UI page.
+The goal of this app was to further enhance my understanding of the important tools necessary for building a great application. The main goal was to understand how to store important user data and how to present data entered via a text field into a list using a second UI page.
 
 #### Journey
 The goal of this small project was to gain a new understanding of using lists that remove rows, present a second UI screen and save and load user data. Making the first UI page and second UI page was not difficult however I stumbled across an issue, "How do I save user input so that when the user reloads the app at a later date, their data is still present". Enter `UserDefaults`, `UserDefaults` is an interface to the user's default database which stores key-value pairs persistently across launches of your app ( [Apple documentation](https://developer.apple.com/documentation/foundation/userdefaults)).
