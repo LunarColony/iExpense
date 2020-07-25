@@ -31,5 +31,5 @@ When working with complex or custom data types, Swift gives us the option to con
 - `.sheet()`
 
 ## Credit
-Special thanks to Paul at [Hacking with Swift](https://www.hackingwithswift.com/100/swiftui) for the tutorial and materials
+Special thanks to Paul at [Hacking with Swift](https://www.hackingwithswift.com/100/swiftui) for the tutorial.
 
