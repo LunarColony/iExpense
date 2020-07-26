@@ -20,7 +20,7 @@ UserDefaults.standard.set(self.tapCount, forKey: "Tap")
 // Reading data back
 @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
 ```
-When working with complex or custom data types, Swift gives us the option to convert these types of data into plain text for archiving or unarchiving. In this app, we use the `JSONEncoder()` to convert our custom data type into a `JSON` format for archiving and `JSONDecoder` for unarchiving. 
+When working with complex or custom data types, Swift gives us the option to convert these types of data into plain text for archiving or unarchiving. In this app, we use the `JSONEncoder()` to convert our custom data type into a `json` format for archiving and `JSONDecoder` for unarchiving. 
 
 ## Topics covered
 - `UserDefaults`
